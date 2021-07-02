@@ -14,7 +14,7 @@ const MessagingFooter = (props) => {
   }
   return (
     <div>
-      <form onSubmit={formOnSubmitHandler} method="post" action="/">
+      <form action="/" method="post" >
         <input type="text" id="messageInput" value={message} name="message" onChange={messageChangeHandler}></input>
         <button id="sendButton" className="btn btn-primary" type="submit">
           SEND
@@ -23,5 +23,5 @@ const MessagingFooter = (props) => {
     </div>
   );
 };
-
+//onSubmit={formOnSubmitHandler}
 export default MessagingFooter;
