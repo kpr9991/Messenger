@@ -1,0 +1,13 @@
+#messageInput {
+    position: fixed;
+    bottom: 0;
+    width: 60%;
+    height: 50px;
+  }
+  #sendButton{
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    height: 50px;
+    margin-left: 60%;
+  }
